@@ -1,0 +1,257 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    position: relative;
+    width: 100%;
+    height: 2vw;
+    background-color: #5a5a5a;
+}
+
+.title h3{
+    margin: 0;
+    padding:0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 0.8vw;
+    color: white;
+}
+
+.headbar{
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 5vw;
+}
+
+.logo{
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.logo img{
+    position: absolute;
+    height: 3.5vw;
+    width: auto;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.search{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.searcharea{
+    position: relative;
+    height: 2vw;
+    margin-top: 1.35vw;
+    margin-bottom: 1.35vw;
+    padding: 0.15vw;
+    width: 90%;
+    border: 1px solid #aaaaaa;
+}
+
+.searchbox{
+    position: relative;
+    float: left;
+    width: 78%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    border: 0;
+    outline: 0;
+    height: 2vw;
+}
+
+.searchbut{
+    position: relative;
+    float: left;
+    height: 1.9vw;
+    width: 22%;
+    border-radius: 0.25vw;
+    background-color: #44bcbd;
+}
+
+.searchbut img{
+    position: relative;
+    float: left;
+    height: 1vw;
+    width: 1vw;
+    padding:0.5vw;
+}
+
+.searchbut h4{
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 0;
+    padding-top: 0.3vw;
+    font-size: 1.2vw;
+    font-weight: normal;
+    color: white;
+}
+
+.righthead{
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 1.25vw;
+    padding-bottom: 1.25vw;
+    width: 35%;
+    height: 100%;
+}
+
+.righthead img{
+    position: relative;
+    float:left;
+    padding: 0.45vw;
+    width: auto;
+    height: 1.6vw;
+}
+
+.icon{
+    padding-left: 1.5vw !important;
+    padding-right: 1.5vw !important;
+    border-left: 0.1vw solid #dddddd;
+}
+
+.righthead h4{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float:left;
+    color: #5a5a5a;
+    font-size: 1.2vw;
+    padding-top: 0.65vw;
+    padding-bottom: 0.65vw;
+    padding-right: 5%;
+}
+
+.navbar{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 3vw;
+    background-color: yellow;
+}
+
+.mainslide{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 35vw;
+}
+
+.carousel{
+    width: 100%;
+    height: 35vw;
+    position: relative;
+}
+
+.caroslide{
+    width: 100vw;
+    height: 35vw;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: opacity 1s;
+    z-index: 1;
+}
+
+#caroslide1{
+    opacity: 1;
+}
+
+.slidebuttons{
+    z-index: 10;
+    position: absolute;
+    top: 32vw;
+    left: 47vw;
+    height: 3vw;
+}
+
+#slidebutton1{
+    color: white;
+}
+
+.slidebuttons i{
+    font-size: 0.8vw;
+    color: grey;
+    position: relative;
+    margin-left: 0.4vw;
+}
+
+
+.shoptempmain{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 14.5vw;
+    width: 24vw;
+    height: 20vw;
+    border: 0.15vw solid white;
+}
+.shoptemp{
+    position: absolute;
+    top: 50%;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+    left: 0.5vw;
+    width: 23vw;
+    height: 19vw;
+    background-color: white;
+}
+
+.shoptemp h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 2.5vw;
+    color: #5a5a5a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shoptemp h4{
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5vw;
+    text-align: center;
+    font-size: 1vw;
+    color: #69c9ca;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shopnow{
+    width: 36%;
+    height: 2.5vw;
+    padding: 0.25vw;
+    border: 0.1vw solid #69c9ca;
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-top: 2vw;
+}
+
+.shopnow h4{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #69c9ca;
+    font-size: 0.8vw;
+    line-height: 0.8vw;
+    padding-top: 0.75vw;
+    color: white;
+}
